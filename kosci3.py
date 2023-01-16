@@ -32,7 +32,6 @@ if zasieg == 1:
                 gra=int(input("Czy chcesz zagrać ponownie? Jesli tak napisz 1"))
               except:
                   gra=2
-
               
 if zasieg==2:
     while gra==1:
