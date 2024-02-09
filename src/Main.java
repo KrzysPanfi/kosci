@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-        
         //zad1
 
         //Można użyć linked listy, dodając i zwracając head.
@@ -22,3 +21,4 @@ public class Main {
 
 
 
+//
