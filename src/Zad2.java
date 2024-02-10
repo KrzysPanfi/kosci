@@ -22,12 +22,12 @@ public class Zad2 {
                         return false;
                     break;
                 case '}':
-                    popChar =  stack.pop();
+                    popChar = stack.pop();
                     if (popChar == '(' || popChar == '[')
                         return false;
                     break;
                 case ']':
-                    popChar =  stack.pop();
+                    popChar = stack.pop();
                     if (popChar == '(' || popChar == '{')
                         return false;
                     break;

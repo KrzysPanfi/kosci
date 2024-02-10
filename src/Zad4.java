@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class Zad4 {
     public static int ONP(String expre) {
         Stack<Integer> s = new Stack<>();
