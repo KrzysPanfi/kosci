@@ -17,8 +17,9 @@ public class Main {
         //zad4
         System.out.println("Zad4: "+ Zad4.ONP("3 4 + 2 * 7 /"));
     }
+
+    //
 }
 
 
 
-//
