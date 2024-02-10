@@ -7,6 +7,7 @@ public class Main {
 
         //zad2
 
+        
         String exp = " Ala ([ma]) {kota]} i psa i cos jeszcze ";
         System.out.println(("Zad2: "+ Zad2.balancedParenthesis(exp)));
 
