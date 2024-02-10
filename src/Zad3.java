@@ -4,8 +4,8 @@ public class Zad3 {
         Stack<Character> stack = new Stack<>();
         char[] znaki = exp.toCharArray();
         char[] odwrocone_znaki = new char[znaki.length];
-        for (int i = 0; i < znaki.length; i++) {
-            stack.push(znaki[i]);
+        for (char c : znaki) {
+            stack.push(c);
         }
         for (int j = 0; j < znaki.length; j++) {
             odwrocone_znaki[j] = stack.pop();

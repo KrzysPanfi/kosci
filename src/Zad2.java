@@ -7,30 +7,28 @@ public class Zad2 {
 
         char[] znaki = expr.toCharArray();
 
-        for (int i = 0; i < znaki.length; i++) {
-
-            char current = znaki[i];
+        for (char current : znaki) {
 
             if (current == '{' || current == '[' || current == '(') {
                 stack.push(current);
             }
             char popChar;
             switch (current) {
-                case ')':
+                case ')' -> {
                     popChar = stack.pop();
                     if (popChar == '{' || popChar == '[')
                         return false;
-                    break;
-                case '}':
+                }
+                case '}' -> {
                     popChar = stack.pop();
                     if (popChar == '(' || popChar == '[')
                         return false;
-                    break;
-                case ']':
+                }
+                case ']' -> {
                     popChar = stack.pop();
                     if (popChar == '(' || popChar == '{')
                         return false;
-                    break;
+                }
             }
         }
         return stack.empty();
