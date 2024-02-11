@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class Zad2 {
     public static boolean balancedParenthesis(String expr) {
 
