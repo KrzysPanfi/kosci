@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Zad3: " + Zad3.odwrocone_znaki(exp1));
         //zad4
         System.out.println("Zad4: " + Zad4.ONP("3 4 + 2 * 7 /"));
+        System.out.println("Zad4: " + Zad4.ONP("2 4 - -2 * 1 1 + /"));
     }
 
 }
